@@ -1,0 +1,62 @@
+j1: [blind man w/blinds] 5 4722 8068 955 
+j2: [backpack parachute] 1137 2869 2981
+j3: [3 men arrive in heaven, killed relatedly] 3530 950 1511
+j4: [blond genie island friends] 1606 965 
+j5: [viola burns longer] 6214 6525 6619 6620 8431 6123 6148 6523 6698 6673 8496 8599 6188
+j6: [viola/lawyer skid marks] 1492 11098 11116 2173 6162 6265 6638 6729 8397 8784 8755
+j7: [viola/lawyer trampoline] 6232 11094 11124 6146 6516 6625 6675 8375
+j8: [hallucinations] 6211 6582 8384 8857 6651
+j9: [blond in 1st class] 1570 1623 35 888 945 11144 11148 
+j10: [heaven pope lawyer] 1168 2150 3535
+j11: [heaven lawyer titanic] 2147 5624
+j12: [engineer in hell] 2176 2400 2416 7519 1134
+j13: [die take money in house] 3938 2182
+j14: [die take money friends giving check] 3882 2190 2140 1240 2183 5628 7518 3889 
+j15: [die with thief] 3919 4744
+j16: [lawyer donate charity] 2184 5630 3915
+j17: [heaven ugly partner] 7629 1009 3537 2016 3551 3580 2199
+j18: [genie man woman smarter] 1653 1650 1942 2091 2882 507 3543 6670
+j19: [screw the postman] 1051 8360
+j20: [still believes in genies] 715 2035
+j21: [genie let me see that map] 2274 6957 12985 7325
+j22: [blond = airhead] 13062 11142
+j23: [beast pogo stick] 10137 11917
+j24: [pearly gates biker gang] 1337 3542
+j25: [blond in circle] 1620 2821 981 1512 989
+j26: [god is missing] 2434 4743
+j27: [wife wash iron etc] 1182 5722
+j28: [jigsaw puzzle completion] 942 5366 11584 14050
+j29: [puzzle cereal box] 1580 506 1514
+j30: [yeah right double negative] 341 8063 
+j31: [atom lost electron positive] 13866 7147 11133 7070 13257 
+j32: [coffin chasing medicine] 683 7492
+j33: [rabbi priest car accident] 14110 14086 4447 2010 2069 6045
+j34: [old groom saving up] 5931 1024 2007
+j35: [farmer fine after accident] 3254 491 4375 5616
+j36: [god will save me] 2405 2388 4721
+j37: [accident lawyer tape measure] 1211 7516 3909
+j38: [czech in the male] 4590 4350
+j39: [reduce accident keys] 13010 13022
+j40: [small medium] 4599 11004
+j41: [superman drunk] 640 2761 927
+j42: [condom imports] 5611 2245 
+j43: [beer for me, for you] 8215 901 2771
+j44: [hell changes after demo] 3546 3869 2229 7751 
+j45: [andy walks with me] 497 4751
+j46: [elderly couple heaven] 3221 4180 
+j47: [musicians side entrance] 5792 8370 6489
+j48: [pack bags lottery] 13148 2051
+j49: [god's girlfriend in band] 6183 8559
+j50: [god thinks he's musician] 8898 6730 8628
+j51: [heaven lie-clock] 2242 2396 2301
+j52: [plastic surgery years to live] 2407 5527 7384 2032 1154
+j53: [don't kiss talking frog] 6179 7891
+j54: [wishes multiplied for enemy] 2090 2124 2078 7749
+j55: [mob deaf embezzler] 2170 1379 745 8070
+j56: [frog minus legs deaf] 953 4955 1728
+j57: [frog future girl] 2697 7457 467
+j58: [kids curse at breakfast] 5436 1808 1751
+j59: [girl underwear tricked] 1744 766
+j60: [in taxi everyone prays] 4762 8260
+
+j61: [groom in prison] 550 8230

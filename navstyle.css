@@ -1,0 +1,31 @@
+BODY,p {
+   font-family: verdana;
+   font-size: 12px;
+   margin-left: 4%;
+   margin-right: 4%;
+   line-height: 2;
+}
+
+a:link {
+        color: #FFFF99;
+	text-decoration: none
+}
+a:visited {
+        color: #996699; 
+	text-decoration: none
+}
+a:hover { 
+	text-decoration: underline;
+}
+.smaller {
+	line-height: 1;
+	font-size: smaller;
+	list-style image: none;
+	font-style: normal;
+}
+.norm {
+	line-height: 1.5;
+	list-style image: none;
+
+
+}
