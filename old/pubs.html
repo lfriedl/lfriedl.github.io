@@ -1,0 +1,554 @@
+<html>
+<head>
+<title>Publications & Projects</title>
+</head>
+<body>
+<font face="verdana" size="2">
+<!--- -->
+<script type="text/javascript">
+function showDetails(ind) {
+  s = document.getElementById(ind);
+
+  if (s.style.display == 'none') {
+    s.style.display = 'block';
+  } else if (s.style.display == 'block') {
+    s.style.display = 'none';
+  }
+}
+function expand(ind) {
+  s = document.getElementById(ind);
+
+  if (s.style.display == 'none') {
+    s.style.display = 'inline';
+  } else if (s.style.display == 'inline') {
+    s.style.display = 'none';
+  }
+}
+</script>
+
+
+
+<h3>Publications</h3>
+
+<ul>
+<div id="exampleEntry" style="display: none;">(no need to put these top lines inside a div, normally)
+<li>
+<p><a href="[link]" TARGET="_blank">Title</a><br>
+citation
+(<a href="javascript:showDetails('abstract00');">abstract</a>, <a href="pubs/local-copy.pdf" TARGET="_blank">pdf</a>, <a href="javascript:showDetails('info00');">info</a>)
+</div>
+
+<div id="abstract00" style="display: none;">
+<blockquote>
+abstract here
+</blockquote>
+</div>
+<div id="info00" style="display: none;">
+<blockquote>
+acceptance rate
+</blockquote>
+</div>
+
+
+<li>
+<p><a href="http://www.aclweb.org/anthology/D17-1117" TARGET="_blank">ConStance: Modeling Annotation Contexts to Improve Stance Classification</a><br>
+Kenneth Joseph, Lisa Friedland, William Hobbs, David Lazer, Oren Tsur (2017). In <i>Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing  (EMNLP)</i>, pp. 1126-1135.
+(<a href="javascript:showDetails('abstract16');">abstract</a>, <a href="http://www.aclweb.org/anthology/D17-1117" TARGET="_blank">paper</a>,
+<a href="pubs/Joseph-etal-emnlp2017-supp.pdf" TARGET="_blank">supplementary material</a>, <a href="https://github.com/kennyjoseph/constance" TARGET="_blank">code and replication data</a>,
+<a href="javascript:showDetails('info16');">info</a>)
+<div id="abstract16" style="display: none;">
+<blockquote>
+Manual annotations are a prerequisite for many applications of machine learning.
+However, weaknesses in the annotation process itself are easy to overlook. In particular, scholars often choose what information to give to annotators
+without examining these decisions empirically.
+For subjective tasks such as sentiment analysis, sarcasm, and stance detection, such choices can impact results.
+Here, for the task of political stance detection on Twitter, we show that providing too little context can result in noisy and uncertain annotations,
+whereas providing too strong a context may cause it to outweigh other signals.
+To characterize and reduce these biases, we develop ConStance, a general model for reasoning about annotations across information conditions.
+Given conflicting labels produced by multiple annotators seeing the same instances with different contexts, ConStance simultaneously
+estimates gold standard labels and also learns a classifier for new instances. We show that the classifier learned by ConStance outperforms
+a variety of baselines at predicting political stance, while the model's interpretable parameters shed light on the effects of each context.
+</blockquote>
+</div>
+<div id="info16" style="display: none;">
+<blockquote>
+26% acceptance rate
+</blockquote>
+<div>
+
+<li>
+<p><a href="https://aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/view/15600" TARGET="_blank">"Voters of the Year": 19 Voters Who Were Unintentional Election Poll Sensors on Twitter</a><br>
+William Hobbs, Lisa Friedland, Kenneth Joseph, Oren Tsur, Stefan Wojcik, David Lazer (2017). International AAAI Conference on Web and Social Media (ICWSM), pp. 544-547.
+(<a href="javascript:showDetails('abstract15');">abstract</a>, <a href="pubs/Hobbs-etal-ICWSM2017Voters.pdf" TARGET="_blank">pdf</a>,
+<a href="javascript:showDetails('info15');">info</a>)
+</div>
+<div id="abstract15" style="display: none;">
+<blockquote>
+Public opinion and election prediction models based on social media typically aggregate, weight, and average signals from a massive number of users.
+Here, we analyze political attention and poll movements to identify a small number of social "sensors" &mdash; individuals whose levels of social media discussion of the major parties'
+candidates characterized the candidates' ups and downs over the 2016 U.S. presidential election campaign.
+Starting with a sample of approximately 22,000 accounts on Twitter that we linked to voter registration records, we used penalized regressions
+to identify a set of 19 accounts (sensors) that were predictive for the candidates' poll numbers (5 for Hillary Clinton, 13 for Donald Trump, and 1 for both).
+The predictions based on the activity of these handfuls of sensors accurately tracked later movements in poll margins.
+Despite the regressions allowing both supportive and opposition sensors, our separate models for Trump and Clinton poll support identified sensors for Hillary Clinton
+who were disproportionately women and for Donald Trump who were disproportionately white.
+The method did not predict changes in levels of undecideds and underestimated support for Donald Trump in September 2016, where the errors were correlated with discussions of protests of police shootings.
+</blockquote>
+</div>
+<div id="info15" style="display: none;">
+<blockquote>
+32% acceptance rate<br>
+<font size=-2 color="gray">&#169; <a href="http://www.aaai.org/">AAAI</a>, 2017. </font>
+</blockquote>
+</div>
+
+
+<li>
+<p><a href="https://shorensteincenter.org/combating-fake-news-agenda-for-research/" TARGET="_blank">Combating Fake News: An Agenda for Research and Action</a><br>
+David Lazer, Matthew Baum, Nir Grinberg, Lisa Friedland, Kenneth Joseph, Will Hobbs, and Carolina Mattsson (May 2, 2017). Final report from conference held Feb 17-18, 2017 at Harvard and Northeastern Universities.
+(<a href="javascript:showDetails('abstract14.2');">executive summary</a>, <a href="https://shorensteincenter.org/wp-content/uploads/2017/05/Combating-Fake-News-Agenda-for-Research-1.pdf" TARGET="_blank">pdf</a>)
+
+<div id="abstract14.2" style="display: none;">
+<blockquote>
+Recent shifts in the media ecosystem raise new concerns about the vulnerability of democratic societies to fake news and the public's limited ability to contain it. Fake news as a form of misinformation benefits from the fast pace that information travels in today's media ecosystem, in particular across social media platforms. An abundance of information sources online leads individuals to rely heavily on heuristics and social cues in order to determine the credibility of information and to shape their beliefs, which are in turn extremely difficult to correct or change. The relatively small, but constantly changing, number of sources that produce misinformation on social media offers both a challenge for real-time detection algorithms and a promise for more targeted socio-technical interventions.
+<p>
+There are some possible pathways for reducing fake news, including:
+<p>
+(1) offering feedback to users that particular news may be fake (which seems to depress overall sharing from those individuals); (2) providing ideologically compatible sources that confirm that particular news is fake; (3) detecting information that is being promoted by bots and "cyborg" accounts and tuning algorithms to not respond to those manipulations; and (4) because a few sources may be the origin of most fake news, identifying those sources and reducing promotion (by the platforms) of information from those sources.
+<p>
+As a research community, we identified three courses of action that can be taken in the immediate future: involving more conservatives in the discussion of misinformation in politics, collaborating more closely with journalists in order to make the truth "louder," and developing multidisciplinary community-wide shared resources for conducting academic research on the presence and dissemination of misinformation on social media platforms.
+<p>
+Moving forward, we must expand the study of social and cognitive interventions that minimize the effects of misinformation on individuals and communities, as well as of how socio-technical systems such as Google, YouTube, Facebook, and Twitter currently facilitate the spread of misinformation and what internal policies might reduce those effects. More broadly, we must investigate what the necessary ingredients are for information systems that encourage a culture of truth.
+</blockquote>
+</div>
+
+<li>
+<p><a href="http://scholarworks.umass.edu/dissertations_2/845/" TARGET="_blank">
+Detecting Anomalously Similar Entities in Unlabeled Data </a><br>
+Lisa Friedland (2016).
+Ph.D. thesis, University of Massachusetts Amherst.
+(<a href="javascript:showDetails('abstract14');">abstract</a>,
+<a href="http://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1880&context=dissertations_2" TARGET="_blank">pdf</a>)
+<div id="abstract14" style="display: none;">
+<blockquote>
+In this work, the goal is to detect closely-linked entities within a data set. The entities of interest have a tie causing them to be similar, such as a shared origin or a channel of
+influence. Given a collection of people or other entities with their attributes or behavior, we identify unusually similar pairs, and we pose the question: Are these two people linked, or
+can their similarity be explained by chance?</p>
+
+Computing similarities is a core operation in many domains, but two constraints differentiate our version of the problem. First, the score assigned to a pair should account for the
+probability of a coincidental match. Second, no training data is provided; we must learn about the system from the unlabeled data and make reasonable assumptions about the linked pairs. This
+problem has applications to social network analysis, where it can be valuable to identify implicit relationships among people from indicators of coordinated activity. It also arises in
+situations where we must decide whether two similar observations correspond to two different entities or to the same entity observed twice.</p>
+
+This dissertation explores how to assess such ties and, in particular, how the similarity scores should depend on not only the two entities in question but also properties of the entire data
+set. We develop scoring functions that incorporate both the similarity and rarity of a pair. Then, using these functions, we investigate the statistical power of a data set to reveal (or
+conceal) such pairs.</p>
+
+In the dissertation, we develop generative models of linked pairs and independent entities and use them to derive scoring functions for pairs in three different domains: people with job
+histories, Gaussian-distributed points in Euclidean space, and people (or entities) in a bipartite affiliation graph. For the first, we present a case study in fraud detection that
+highlights the potential, as well as the complexities, of using these methods to address real-world problems. In the latter two domains, we develop an inference framework to estimate whether
+two entities were more likely generated independently or as a pair. In these settings, we analyze how the scoring function works in terms of similarity and rarity; how well it can detect
+pairs as a function of the data set; and how it differs from existing similarity functions when applied to real data.
+</blockquote>
+</div>
+
+<li>
+<p><a href="pubs/SDM2014-paper.pdf" TARGET="_blank">
+Classifier-Adjusted Density Estimation for Anomaly Detection and One-Class Classification</a><br>
+Lisa Friedland, Amanda Gentzel, David Jensen (2014).
+In <i>Proceedings of the 2014 SIAM International Conference on Data Mining (SDM)</i>, pp. 578-586.
+(<a href="javascript:showDetails('abstract13');">abstract</a>,
+<a href="pubs/SDM2014-paper.pdf" TARGET="_blank">paper</a>,
+<a href="pubs/SDM2014-supp.pdf" TARGET="_blank">supplementary material</a>,
+<a href="pubs/SDM2014-poster.pdf" TARGET="_blank">poster</a>, <a href="javascript:showDetails('copy13');">info</a>)
+<div id="abstract13" style="display: none;">
+<blockquote>
+Density estimation methods are often regarded as unsuitable for anomaly detection in high-dimensional data due to the difficulty of
+estimating multivariate probability distributions.  Instead, the scores from popular distance- and local-density-based methods, such
+as local outlier factor (LOF), are used as
+surrogates for probability densities. We question this infeasibility assumption and explore a family of simple statistically-based
+density estimates constructed by combining a probabilistic classifier with a naive density estimate. Across a number of
+semi-supervised and unsupervised problems formed from real-world data sets, we show that these methods are competitive with LOF and
+that even simple density estimates that assume attribute independence can perform strongly. We show that these density estimation
+methods scale well to data with high dimensionality and that they are robust to the problem of irrelevant attributes that plagues
+methods based on local estimates.
+</blockquote>
+</div>
+<div id="copy13" style="display: none;">
+<blockquote>
+31% acceptance rate<br>
+<font size=-2 color="gray">&#169; Society for Industrial and Applied Mathematics, 2014. Publication also available from <a
+href="http://dx.doi.org/10.1137/1.9781611973440.67">http://dx.doi.org/10.1137/1.9781611973440.67</a>.
+</blockquote>
+</font></div>
+
+<li>
+<p><a href="http://jmlr.org/proceedings/papers/v28/friedland13.html" TARGET="_blank"
+>Copy or coincidence? A model for detecting social influence and duplication events</a> <br>
+Lisa Friedland, David Jensen, Michael Lavine (2013).
+In <i>Journal of Machine Learning Workshop and Conference Proceedings 28(3), Proceedings of the 30th International Conference on
+Machine Learning (ICML)</i>, pp. 1175-1183.
+(<a href="javascript:showDetails('abstract12');">abstract</a>,
+<a href="http://jmlr.org/proceedings/papers/v28/friedland13.html" TARGET="_blank">paper / supplementary material</a>,
+<a href="pubs/ICML2013-Friedland-poster.pdf" target="_blank">poster</a>)
+<div id="abstract12" style="display: none;">
+<blockquote>
+In this paper, we analyze the task of inferring rare links between pairs of entities that seem too similar to have occurred by
+chance. Variations of this task appear in such diverse areas as social network analysis, security, fraud detection, and entity
+resolution. To address the task in a general form, we propose a simple, flexible mixture model in which most entities are
+generated independently from a distribution but a small number of pairs are constrained to be similar. We predict the true pairs
+using a likelihood ratio that trades off the entities' similarity with their rarity. This method always outperforms using only
+similarity; however, with certain parameter settings, similarity turns out to be surprisingly competitive. Using real data, we
+apply the model to detect twins given their birth weights and to re-identify cell phone users based on distinctive usage patterns.
+</blockquote>
+</div>
+
+<li>
+<div id="authors10Short" style="display:inline">
+<p><a href="pubs/KDD2013-Senator-etal.pdf" TARGET="_blank">Detecting insider threats in a real corporate database of computer usage
+activities</a><br>
+Ted Senator, Henry Goldberg, <a href="javascript:expand('authors10'); javascript:expand('authors10Short');">et al.</a> (2013).
+In <i>Proceedings of the 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)</i>, pp. 1393-1401.
+(<a href="javascript:showDetails('abstract10');">abstract</a>,
+<a href="pubs/KDD2013-Senator-etal.pdf" TARGET="_blank">paper</a>)
+</div>
+<div id="authors10" style="display: none;">
+<p><a href="pubs/KDD2013-Senator-etal.pdf" TARGET="_blank">Detecting insider threats in a real corporate database of computer usage
+activities</a><br>
+Ted E. Senator, Henry G. Goldberg, Alex Memory, William Y. Young, Brad Rees, Robert Pierce, Daniel Huang, Matthew Reardon, David
+A. Bader, Edmond Chow, Irfan Essa, Joshua Jones, Vinay Bettadapura, Duen Horng Chau, Oded Green, Oguz Kaya, Anita Zakrzewska, Erica
+Briscoe, Rudolph L. Mappus IV, Robert McColl, Lora Weiss, Thomas G. Dietterich, Alan Fern, Weng-Keen Wong, Shubhomoy Das, Andrew
+Emmott, Jed Irvine, Jay-Yoon Lee, Danai Koutra, Christos Faloutsos, Daniel Corkill, Lisa Friedland, Amanda Gentzel, David Jensen
+(2013).
+<a href="javascript:expand('authors10'); javascript:expand('authors10Short');">(collapse authors)</a>
+In <i>Proceedings of the 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)</i>.
+(<a href="javascript:showDetails('abstract10');">abstract</a>,
+<a href="pubs/KDD2013-Senator-etal.pdf" TARGET="_blank">paper</a>)
+</div>
+
+<div id="abstract10" style="display:none;"><blockquote>
+This paper reports on methods and results of an applied research project by a team consisting of SAIC and four universities to
+develop, integrate, and evaluate new approaches to detect the weak signals characteristic of insider threats on organizations'
+information systems. Our system combines structural and semantic information from a real corporate database of monitored activity
+on their users' computers to detect independently developed red team inserts of malicious insider activities. We have
+developed and applied multiple algorithms for anomaly detection based on suspected scenarios of malicious insider behavior,
+indicators of unusual activities, high-dimensional statistical patterns, temporal sequences, and normal graph evolution.
+Algorithms and representations for dynamic graph processing provide the ability to scale as needed for enterprise- level
+deployments on real-time data streams. We have also developed a visual language for specifying combinations of features,
+baselines, peer groups, time periods, and algorithms to detect anomalies suggestive of instances of insider threat behavior. We
+defined over 100 data features in seven categories based on approximately 5.5 million actions per day from approximately 5,500
+users. We have achieved area under the ROC curve values of up to 0.979 and lift values of 65 on the top 50 user-days identified on
+two months of real data.
+</blockquote>
+</div>
+
+<li>
+<p>
+<a href="http://ismir2011.ismir.net/papers/PS3-6.pdf" TARGET="_blank">Feature extraction and machine learning on symbolic music
+using the music21 toolkit</a><br>
+Michael Cuthbert, Chris Ariza, Lisa Friedland (2011). In <i>Proceedings of the 12th International Society for Music Information Retrieval
+Conference (ISMIR)</i>, pp. 387-392.
+(<a href="javascript:showDetails('abstract9')">abstract</a>,
+<a href="http://ismir2011.ismir.net/papers/PS3-6.pdf" TARGET="_blank">paper</a>)
+
+<div id="abstract9" style="display:none;"><blockquote>
+Machine learning and artificial intelligence have great potential to help researchers understand and classify musical scores and
+other symbolic musical data, but the difficulty of preparing and extracting characteristics (features) from symbolic scores has
+hindered musicologists (and others who examine scores closely) from using these techniques. This paper describes the
+"feature" capabilities of music21, a general-purpose, open source toolkit for analyzing, searching, and transforming
+symbolic music data. The features module of music21 integrates standard feature-extraction tools provided by other toolkits,
+includes new tools, and also allows researchers to write new and powerful extraction methods quickly. These developments take
+advantage of the system's built-in capacities to parse diverse data formats and to manipulate complex scores (e.g., by
+reducing them to a series of chords, determining key or metrical strength automatically, or integrating audio data). This
+paper's demonstrations combine music21 with the data mining toolkits Orange and Weka to distinguish works by Monteverdi from
+works by Bach and German folk music from Chinese folk music.
+</blockquote>
+</div>
+
+
+<li>
+<p><a href="pubs/Friedland-AAAIDC10.pdf" TARGET="_blank">Detecting Social Ties and Copying
+Events from Affiliation Data</a><br>
+Lisa Friedland (2010). In <i>Proceedings of the 24th AAAI Conference of Artificial Intelligence</i>, pp. 1982-1983. (Fifteenth AAAI/SIGART
+Doctoral Consortium.)
+(<a href="javascript:showDetails('abstract8');">abstract</a>,
+<a href="javascript:showDetails('copy8');">info</a>)
+
+<div id='abstract8' style="display: none;"><blockquote>
+The goal of my work is to detect implicit social ties or closely-linked entities within a data set. In data consisting of people (or other
+entities) and their affiliations or discrete attributes, we identify unusually similar pairs of people, and we pose the question: Can their
+similarity be explained by chance, or it is due to a direct ("copying") relationship between the people? The thesis will explore
+how to assess this question, and in particular how one's judgments and confidence depend not only on the two people in question but
+also on properties of the entire data set. I will provide a framework for solving this problem and experiment with it across multiple
+synthetic and real-world data sets. My approach requires a model of the copying relationship, a model of independent people, and a method
+for distinguishing between them. I will focus on two aspects of the problem: (1) choosing background models to fit arbitrary,
+correlated affiliation data, and (2) understanding how the ability to detect copies is affected by factors like data sparsity and the numbers of
+people and affiliations, independent of the fit of the models.
+</blockquote>
+</div>
+<div id="copy8" style="display: none;">
+<blockquote>
+<font size=-2 color="gray">&#169; <a href="http://www.aaai.org/">AAAI</a>, 2010.
+</blockquote>
+</font></div>
+
+<li>
+<p><a href="pubs/friedland-allan-cikm08.pdf" TARGET="_blank">Joke retrieval: Recognizing
+the same joke told differently</a><br>
+Lisa Friedland and James Allan (2008). In <i>Proceedings of the 17th ACM
+Conference on Information and Knowledge Management (CIKM)</i>, pp. 883-892.
+(<a
+href="javascript:showDetails('abstract7');">abstract</a>,
+<a href="javascript:showDetails('copy7');">info</a>)
+
+<div id='abstract7' style="display: none;"><blockquote>
+In a corpus of jokes, a human might judge two documents to be
+the "same joke" even if characters, locations, and other details
+are
+varied. A given joke could be retold with an entirely different
+vocabulary while still maintaining its identity. Since most
+retrieval systems consider documents to be related only when
+their word content is similar, we propose joke retrieval as a
+domain where standard language models may fail. Other
+meaning-centric domains include logic puzzles, proverbs and
+recipes; in such domains, new techniques may be required to
+enable us to search effectively. For jokes, a necessary component
+of any retrieval system will be the ability to identify the "same
+joke," so we examine this task in both ranking and classification
+settings. We exploit the structure of jokes to develop two domain-
+specific alternatives to the "bag of words" document model. In
+one, only the punch lines, or final sentences, are compared; in the
+second, certain categories of words (e.g., professions and
+countries) are tagged and treated as interchangeable. Each
+technique works well for certain jokes. By combining the methods
+using machine learning, we create a hybrid that achieves higher
+performance than any individual approach.
+</blockquote>
+</div>
+<div id="copy7" style="display: none;">
+<blockquote>
+17% acceptance rate<br>
+<font size=-2 color="gray">&#169; ACM, 2008. This is the author's version of the work. It is posted
+here by permission of ACM for your personal use. Not for redistribution.
+This is a minor revision of the work published at
+http://doi.acm.org/10.1145/1458082.1458199
+</blockquote>
+</font></div>
+
+
+<li>
+<p><a href="http://www.igi-global.com/chapter/anomaly-detection-inferring-social-structure/10795" TARGET="_blank">
+Anomaly detection for inferring social structure</a><br>
+Lisa Friedland (2008). In <i>Encyclopedia of Data Warehousing and
+Mining</i>, Second Edition (John Wang, Ed.), pp. 39-44. IGI Global.
+(<a href="javascript:showDetails('abstract6')">abstract</a>, <a href="pubs/IGI-samplePages.pdf" TARGET="_blank">sample pages</a>)
+
+<div id="abstract6" style="display:none;"><blockquote>
+In traditional data analysis, data points lie in a Cartesian space, and an analyst asks certain questions: (1) What distribution
+can I fit to the data? (2) Which points are outliers? (3) Are there distinct clusters or substructure? Today, data mining treats
+richer and richer types of data. Social networks encode information about people and their communities; relational data sets
+incorporate multiple types of entities and links; and temporal information describes the dynamics of these systems. With such
+semantically complex data sets, a greater variety of patterns can be described and views constructed of the data. This article
+describes a specific social structure that may be present in such data sources and presents a framework for detecting it. The goal
+is to identify tribes, or small groups of individuals that intentionally coordinate their behavior&mdash;individuals with enough in
+common that they are unlikely to be acting independently. While this task can only be conceived of in a domain of interacting
+entities, the solution techniques return to the traditional data analysis questions. In order to find hidden structure, we use an
+anomaly detection approach: develop a model to describe the data, then identify outliers.
+</blockquote></div>
+
+<li>
+<p><a href="pubs/friedland-jensen-kdd07.pdf" TARGET="_blank">Finding tribes: Identifying close-knit individuals from employment patterns</a> <br>
+Lisa Friedland and David Jensen (2007).  In <i>Proceedings of the 13th
+ACM SIGKDD International Conference on Knowledge Discovery and Data
+Mining (KDD)</i>, pp. 290-299. (<a
+href="javascript:showDetails('abstract5');">abstract</a>,
+<a href="javascript:showDetails('copy5');">info</a>, <a
+href="pubs/friedland-jensen-kdd07.pdf" TARGET="_blank">paper</a>, <a href="pubs/tribes-poster-KDD07.pdf" TARGET="_blank">poster</a>)
+<div id="abstract5" style="display: none;">
+<blockquote>
+We present a family of algorithms to uncover <i>tribes</i>&mdash;groups of
+individuals who share unusual sequences of affiliations.  While
+much work inferring community structure describes large-scale
+trends, we instead search for small groups of tightly linked
+individuals who behave anomalously with respect to those trends.
+We apply the algorithms to a large temporal and relational data set
+consisting of millions of employment records from the National
+Association of Securities Dealers. The resulting tribes contain
+individuals at higher risk for fraud, are homogenous with respect
+to risk scores, and are geographically mobile, all at significant
+levels compared to random or to other sets of individuals who
+share affiliations.
+</blockquote></div>
+<div id="copy5" style="display: none;">
+<blockquote>
+<20% acceptance rate<br>
+<font size=-2 color="gray">&#169; ACM, 2007. This is the author's version of
+the work. It is posted here by permission of ACM for your personal use.
+Not for redistribution. The definitive version is available at
+http://doi.acm.org/10.1145/1281192.1281226</font>
+</blockquote>
+</div>
+</p>
+
+<li>
+<p><a href="pubs/fast-et-al-kdd07.pdf" TARGET="_blank">Relational data pre-processing techniques for improved
+securities fraud detection</a>  <br>Andrew Fast, Lisa Friedland, Marc Maier, Brian Taylor,
+David Jensen, Henry G. Goldberg, and John Komoroske (2007). In <i>Proceedings of the 13th ACM SIGKDD International Conference on
+Knowledge Discovery and Data Mining (KDD)</i>, pp. 941-949.
+(<a
+href="javascript:showDetails('abstract4');">abstract</a>,
+<a href="javascript:showDetails('copy4');">info</a>)
+</p>
+<div id="abstract4" style="display: none;">
+<blockquote>
+Commercial datasets are often large, relational and dynamic.
+They contain many records of people, places, things and events
+and their interactions over time.  Such datasets are rarely
+structured appropriately for important knowledge discovery tasks,
+and they often contain variables whose meaning changes across
+different subsets of the data.  We describe how these challenges
+were addressed in a collaborative analysis project undertaken by
+the University of Massachusetts Amherst and the National
+Association of Securities Dealers (NASD).  We describe several
+methods for data pre-processing that we applied to transform a
+large, dynamic, and relational dataset describing nearly the
+entirety of the U.S. securities industry, and we show how these
+methods made the dataset suitable for learning statistical relational
+models. To better utilize social structure, we first applied known
+consolidation and link formation techniques to associate
+individuals with branch office locations.  In addition, we
+developed an innovative technique to infer professional
+associations by exploiting dynamic employment histories.
+Finally, we applied normalization techniques to create a suitable
+class label that adjusts for spatial, temporal, and other
+heterogeneity within the data.  We show how these pre-processing
+techniques combine to provide the necessary foundation for
+learning high-performing statistical models of fraudulent activity.
+</blockquote>
+</div>
+<div id="copy4" style="display: none;">
+<blockquote>
+<20% acceptance rate<br>
+<font size=-2 color="gray">&#169; ACM, 2007. This is the author's version of the work. It is posted here by permission of ACM for your personal use. Not for redistribution. The definitive version is available at http://doi.acm.org/10.1145/1281192.1281293</font>
+</blockquote></div>
+
+<li>
+<p>
+<a href="http://kdl.cs.umass.edu/papers/mcgovern-et-al-kddcup2003.pdf" TARGET="_blank">
+Exploiting relational structure to understand publication patterns in
+high-energy physics</a> <br>
+Amy McGovern, Lisa Friedland, Michael Hay, Brian Gallagher, Andrew Fast, Jennifer
+Neville, and David Jensen (2003).
+<i>SIGKDD Explorations</i>, 5(2):165-172.
+(<a
+href="javascript:showDetails('abstract3');">abstract</a>,
+<a href="javascript:showDetails('info3');">info</a>)
+<div id="abstract3" style="display: none;">
+<blockquote>
+We analyze publication patterns in theoretical high-energy
+physics using a relational learning approach. We focus our
+analyses on four related areas: understanding and identifying patterns of citations, examining publication patterns at
+the author level, predicting whether a paper will be accepted
+by specific journals, and identifying research communities
+from the citation patterns and paper text. Each of these
+analyses contributes to an overall understanding of theoretical high-energy physics that could not have been achieved
+without examining each area in detail.
+</blockquote>
+</div>
+<div id="info3" style="display: none;">
+<blockquote>
+<i>First-place winner, task 4 of <a
+href="http://www.cs.cornell.edu/projects/kddcup/" target="_blank">KDD Cup 2003</a></i>.
+</blockquote>
+</div>
+</p>
+
+<li>
+<p>
+<a href="http://kdl.cs.umass.edu/papers/neville-et-al-kdd2003.pdf" TARGET="_blank">
+Learning relational probability trees</a>
+<br>Jennifer Neville, David Jensen, Lisa Friedland and Michael Hay (2003).
+In <i>Proceedings of the 9th ACM SIGKDD International Conference on Knowledge Discovery
+and Data Mining (KDD)</i>, pp. 625-630.
+(<a
+href="javascript:showDetails('abstract2');">abstract</a>,
+<a href="javascript:showDetails('info2');">info</a>,
+<a href="http://kdl.cs.umass.edu/papers/neville-et-al-kdd2003.pdf" TARGET="_blank">paper</a>, <a
+href="pubs/rpt-poster-kdd2003.pdf" TARGET="_blank">poster</a>)
+<div id="abstract2" style="display: none;">
+<blockquote>
+Classification trees are widely used in the machine learning
+and data mining communities for modeling propositional
+data. Recent work has extended this basic paradigm to probability
+estimation trees. Traditional tree learning algorithms
+assume that instances in the training data are homogenous and
+independently distributed. Relational probability trees (RPTs)
+extend standard probability estimation trees to a relational
+setting in which data instances are heterogeneous and interdependent.
+Our algorithm for learning the structure and parameters of an RPT searches over a space of relational features that
+use aggregation functions (e.g. AVERAGE, MODE, COUNT) to dynamically propositionalize relational data and create binary
+splits within the RPT. Previous work has identified a number
+of statistical biases due to characteristics of relational data
+such as autocorrelation and degree disparity. The RPT algorithm uses a novel form of randomization test to adjust for
+these biases. On a variety of relational learning tasks, RPTs
+built using randomization tests are significantly smaller than
+other models and achieve equivalent, or better, performance.
+</blockquote>
+</div>
+<blockquote>
+<div id="info2" style="display: none;">
+27% acceptance rate for research-track papers and posters<br>
+<font size=-2 color="gray">&#169; ACM, 2003. This is the author's version of the work. It is posted here by permission of ACM for your personal use. Not for redistribution. The definitive version is available at http://doi.acm.org/10.1145/956750.956830</font>
+</blockquote>
+</div>
+</p>
+<p>
+
+<li>
+<div id="authors1Short" style="display:inline">
+<p><a href="http://www.nature.com/ng/journal/v22/n3/abs/ng0799_231.html" TARGET="_blank">
+Characterization of single-nucleotide polymorphisms in coding regions of human genes</a>
+<br>
+Michele Cargill, David Altshuler, <a href="javascript:expand('authors1'); javascript:expand('authors1Short');">et al.</a> (1999).
+<i>Nature Genetics</i> 22(3):231-8.
+(<a href="javascript:showDetails('abstract1');">abstract</a>, <a href="javascript:showDetails('info1');">info</a>, <a href="http://rdcu.be/vfm8">pdf</a>)
+</div>
+
+<div id="authors1" style="display: none;">
+<p><a href="pubs/Cargill-etal-NatureGenetics1999.pdf" TARGET="_blank">
+Characterization of single-nucleotide polymorphisms in coding regions of human genes</a>
+<br>
+Michele Cargill, David Altshuler, James Ireland, Pamela Sklar, Kristin Ardlie,
+Nila Patil, Nila Shaw, Charles R. Lane, Esther P. Lim, Nilesh Kalyanaraman,
+James Nemesh, Liuda Ziaugra, Lisa Friedland, Alex
+Rolfe, Janet Warrington, Robert Lipshutz, George Q. Daley, and Eric S. Lander (1999).
+<a href="javascript:expand('authors1'); javascript:expand('authors1Short');">(collapse authors)</a>
+<i>Nature Genetics</i> 22(3):231-8.
+(<a href="javascript:showDetails('abstract1');">abstract</a>, <a href="javascript:showDetails('info1');">info</a>, <a href="http://rdcu.be/vfm8">pdf</a>)
+</div>
+
+<div id="abstract1" style="display:none;"><blockquote>
+A major goal in human genetics is to understand the role of common genetic variants in susceptibility to common diseases. This
+will require characterizing the nature of gene variation in human populations, assembling an extensive catalogue of
+single-nucleotide polymorphisms (SNPs) in candidate genes and performing association studies for particular diseases. At present,
+our knowledge of human gene variation remains rudimentary. Here we describe a systematic survey of SNPs in the coding regions of
+human genes. We identified SNPs in 106 genes relevant to cardiovascular disease, endocrinology and neuropsychiatry by screening
+an average of 114 independent alleles using 2 independent screening methods. To ensure high accuracy, all reported SNPs were
+confirmed by DNA sequencing. We identified 560 SNPs, including 392 coding-region SNPs (cSNPs) divided roughly equally between
+those causing synonymous and non-synonymous changes. We observed different rates of polymorphism among classes of sites within
+genes (non-coding, degenerate and non-degenerate) as well as between genes. The cSNPs most likely to influence disease, those that
+alter the amino acid sequence of the encoded protein, are found at a lower rate and with lower allele frequencies than silent
+substitutions. This likely reflects selection acting against deleterious alleles during human evolution. The lower allele
+frequency of missense cSNPs has implications for the compilation of a comprehensive catalogue, as well as for the subsequent
+application to disease association.
+</blockquote></div>
+<blockquote>
+<div id="info1" style="display: none;">
+<a href="http://dx.doi.org/10.1038/10290" TARGET="_blank">doi:10.1038/10290</a></div>
+</blockquote>
+</p>
+</ul>
+
+</font>
+</body>
+</html>
