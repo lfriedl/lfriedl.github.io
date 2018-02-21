@@ -29,20 +29,15 @@ body{
     text-align: center;
 }
 
-a {
+a, a:visited {
     color:#903;
     text-decoration: none;
 
 }
-
-a:visited {
-    color:#b00;
-    text-decoration: none;
-}
-
-a.external, a.external:visited {
+a.newwnd, a.newwnd:visited {
     text-decoration: underline;
 }
+
 
 main {
     padding-bottom: 10010px;
