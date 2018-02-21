@@ -34,7 +34,7 @@ a, a:visited {
     text-decoration: none;
 
 }
-a.newwnd, a.newwnd:visited {
+a.newwnd, a.newwnd:visited, a.newwnd:hover {
     text-decoration: underline;
 }
 
@@ -111,6 +111,7 @@ nav ul .current a, nav ul .current a:visited {
     color: #ccc;
     cursor: default;
 }
+
 
 #photo {
     text-align: left;
