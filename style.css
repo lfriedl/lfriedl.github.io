@@ -105,13 +105,31 @@ nav ul {
     padding: 0;
 }
 
-nav ul a {
+nav ul a, nav ul a:visited {
     color: #fff;
     text-decoration: none;
 }
 
-nav ul .current a {
+
+nav ul .current a, nav ul .current a:visited {
     font-weight: bold;
-    color: #000;
+    color: #ccc;
     cursor: default;
+}
+
+#photo {
+    text-align: left;
+
+    padding: 10px;
+}
+
+#photo img {
+    border: 1px black solid;
+}
+
+.todo {
+    background-color: black;
+    color:aqua;
+    font-family: monospace;
+    padding:1px 2px;
 }
