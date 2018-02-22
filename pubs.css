@@ -1,0 +1,63 @@
+/*****************************
+ *       PUBS
+ *    STYLESHEET
+ *
+ *   @cantimagine
+ */
+
+blockquote {
+    display: none;
+}
+
+/*
+a.show-abstract {
+    color: #903;
+}
+
+a.show-info {
+    color: #888;
+}
+*/
+
+blockquote .hide {
+    font-variant: small-caps;
+    font-weight: 200;
+    font-size: 10px;
+    color: #fff;
+    background-color: #999;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 5px;
+}
+
+blockquote .hide:hover {
+    background-color: #666;
+}
+
+
+#meta {
+    background-color: #ddd;
+    margin-bottom: 5%;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.source {
+    font-size: 8pt;
+    color:gray;
+}
+
+#pubs li {
+    margin: 2% 0;
+}
+
+
+
+#pubs ul.links li {
+    display: inline;
+    margin: 0 3px;
+}
+
+
