@@ -18,9 +18,12 @@ body{
 #header {
     background: #999;
     height: 100px;
-    display: none;
+/*    display: none;*/
 }
 
+#header img {
+    margin-left: 130px;
+}
 
 #header h1 {
     margin: 0;
@@ -46,6 +49,7 @@ main {
     width: 100%;
 }
 
+/* Navigation menu */
 #nav {
     float: left;
     width: 230px;
@@ -53,42 +57,7 @@ main {
     padding-bottom: 10010px;
     margin-bottom: -10000px;
     background: #990033;
-}
-
-#wrapper {
-    overflow: hidden;
-    min-height: 500px;
-}
-
-#content {
-    margin-left: 230px; /* Same as 'nav' width */
-}
-
-#footer {
-    clear: left;
-    width: 100%;
-    background: #000;
-    text-align: center;
-    padding: 4px 0;
-    display: none;
-}
-
-#footer h4 {
-    color: #eee;
-}
-
-.innertube{
-    margin: 15px; /* Padding for content */
-    margin-top: 0;
-}
-
-p {
-    color: #555;
-}
-
-#meta {
-    background-color: #888;
-    font-style: italic;
+    min-height: 99vh;
 }
 
 nav {
@@ -112,6 +81,44 @@ nav ul .current a, nav ul .current a:visited {
     cursor: default;
 }
 
+#wrapper {
+    overflow: hidden;
+    min-height: 500px;
+}
+
+#content {
+    margin-left: 230px; /* Same as 'nav' width */
+}
+
+#footer {
+    clear: left;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    padding: 4px 0;
+/*    display: none;*/
+}
+
+#footer h4 {
+    color: #eee;
+}
+
+.innertube{
+    margin: 15px; /* Padding for content */
+    margin-top: 0;
+}
+
+p {
+    color: #555;
+}
+
+#meta {
+    background-color: #888;
+    font-style: italic;
+}
+
+
+
 
 #photo {
     text-align: left;
@@ -132,4 +139,21 @@ nav ul .current a, nav ul .current a:visited {
 
 ul.nobullet {
     list-style-type: none;
+}
+
+#title.different {
+    font-family: fantasy;
+    font-size: 24pt;
+    margin-left: 200px;
+}
+
+
+/* Particle Background */
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }

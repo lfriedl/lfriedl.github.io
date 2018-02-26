@@ -12,6 +12,8 @@ $(function(){
             $(this).attr("href", "javascript:;").css("cursor", "default");
         }
     });
+
+    $(".todo").prepend("&nbsp;TODO: ");
 });
 
 function getCurrentFileName(){
