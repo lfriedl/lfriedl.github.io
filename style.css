@@ -49,37 +49,7 @@ main {
     width: 100%;
 }
 
-/* Navigation menu */
-#nav {
-    float: left;
-    width: 230px;
-    margin-left: -100%;
-    padding-bottom: 10010px;
-    margin-bottom: -10000px;
-    background: #990033;
-    min-height: 99vh;
-}
 
-nav {
-    padding: 25px 5px;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul a, nav ul a:visited {
-    color: #fff;
-    text-decoration: none;
-}
-
-
-nav ul .current a, nav ul .current a:visited {
-    font-weight: bold;
-    color: #ccc;
-    cursor: default;
-}
 
 #wrapper {
     overflow: hidden;
@@ -90,13 +60,18 @@ nav ul .current a, nav ul .current a:visited {
     margin-left: 230px; /* Same as 'nav' width */
 }
 
+#content .pageTitle {
+    margin-left: 5%;
+    font-family: sans-serif;
+
+}
+
 #footer {
     clear: left;
     width: 100%;
     background: #000;
     text-align: center;
     padding: 4px 0;
-/*    display: none;*/
 }
 
 #footer h4 {
@@ -141,10 +116,39 @@ ul.nobullet {
     list-style-type: none;
 }
 
-#title.different {
-    font-family: fantasy;
-    font-size: 24pt;
-    margin-left: 200px;
+
+
+/* Navigation menu */
+#nav {
+    float: left;
+    width: 230px;
+    margin-left: -100%;
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    background: #990033;
+    min-height: 80vh;
+}
+
+
+nav {
+    padding: 25px 5px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a, nav ul a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+nav ul .current a, nav ul .current a:visited {
+    font-weight: bold;
+    color: #ccc;
+    cursor: default;
 }
 
 
@@ -152,7 +156,7 @@ ul.nobullet {
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #ddd;
+  background-color: #000;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
