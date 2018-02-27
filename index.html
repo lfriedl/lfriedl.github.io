@@ -2,18 +2,24 @@
 <html>
     <head>
         <title>Lisa Friedland</title>
-        <meta http-equiv="refresh" content="5" />
+        <!-- Meta -->
+        <meta name="author" content="Charlie Kelly @cantimagine">
+        <meta name="keywords" content="Lisa Friedland">
+        <meta name="description" content="Lisa Friedland's professional page">
+
+        <!-- Cache (forces css refresh - remove when site is stable) -->
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="expires" content="0">
+
+
         <script type="text/javascript" src="lib/jquery-3.3.1.slim.min.js"></script>
         <script type="text/javascript" src="lib/particles.min.js"></script>
         <script type="text/javascript" src="lib/nav-particles.js"></script>
         <script type="text/javascript" src="lib/common.js"></script>
         <link type="image/gif" rel="icon" href="favicon.gif" />
         <link type="text/css" rel="stylesheet" href="style.css"/>
-        <style type="text/css">
-            #content {
-                max-width: 600px;
-            }
-        </style>
+
     </head>
     <body>
         <div id="header">
@@ -23,10 +29,11 @@
 		<div id="wrapper">
 
 			<main>
-				<div id="content">
+				<div id="content" class="limit-width">
 					<div class="innertube">
 
                         <div id="photo">
+                            <!-- TODO: find a better photo -->
                             <img src="linked-files/pic12-2017.jpg" height=300/>
                         </div>
 						<div style="padding: 10px">
@@ -34,9 +41,9 @@
 
                             <ul class="nobullet">
                                 <li class="todo">Replace these with relevant links</li>
-                                <li><a href="http://kdl.cs.umass.edu" class="newwnd" target="_blank">Knowledge Discovery Laboratory</a></li>
-                                <li><a href="http://www.cs.umass.edu" class="newwnd" target="_blank">Department of Computer Science</a></li>
-                                <li><a href="http://www.umass.edu" class="newwnd" target="_blank">University of Massachusetts, Amherst</a></li>
+                                <li><a href="http://kdl.cs.umass.edu" target="_blank">Knowledge Discovery Laboratory</a></li>
+                                <li><a href="http://www.cs.umass.edu" target="_blank">Department of Computer Science</a></li>
+                                <li><a href="http://www.umass.edu" target="_blank">University of Massachusetts, Amherst</a></li>
                             </ul>
                         </div>
 
@@ -51,7 +58,7 @@
                         <li><a href="index.html">Home</a></li>
 						<li><a href="pubs.html">Publications</a></li>
                         <li><a href="code.html">Software/Data</a></li>
-						<li><a href="linked-files/cv-Friedland-10.2017.pdf" class="newwnd" target="_blank">C.V.</a></li>
+						<li><a href="linked-files/cv-Friedland-10.2017.pdf" target="_blank">C.V.</a></li>
                         <li><a href="alt.html">Something Different</a></li>
 					</ul>
 

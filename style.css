@@ -8,13 +8,51 @@
 
 
 
-body{
+/* General Content */
+body {
     margin:0;
     padding:0;
     font-family: Sans-Serif;
     line-height: 1.5em;
 }
 
+a, a:visited {
+    color:#903;
+    text-decoration: none;
+
+}
+
+p {
+    color: #555;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+.spacer {
+    height: 5vh;
+}
+
+
+#photo {
+    text-align: left;
+
+    padding: 10px;
+}
+
+#photo img {
+    border: 1px black solid;
+}
+
+
+/*********************
+ * SECTIONS
+ ********************/
+
+
+/* HEADER */
 #header {
     background: #999;
     height: 100px;
@@ -32,11 +70,26 @@ body{
     text-align: center;
 }
 
-a, a:visited {
-    color:#903;
-    text-decoration: none;
 
+/* FOOTER */
+#footer {
+    clear: left;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    padding: 4px 0;
 }
+
+#footer h4 {
+    color: #eee;
+}
+
+
+
+
+
+/* MAIN */
+
 a.newwnd, a.newwnd:visited, a.newwnd:hover {
     text-decoration: underline;
 }
@@ -60,51 +113,26 @@ main {
     margin-left: 230px; /* Same as 'nav' width */
 }
 
+#content.limit-width {
+    max-width: 600px;
+}
+
 #content .pageTitle {
     margin-left: 5%;
     font-family: sans-serif;
 
 }
 
-#footer {
-    clear: left;
-    width: 100%;
-    background: #000;
-    text-align: center;
-    padding: 4px 0;
-}
-
-#footer h4 {
-    color: #eee;
-}
 
 .innertube{
     margin: 15px; /* Padding for content */
     margin-top: 0;
 }
 
-p {
-    color: #555;
-}
-
-#meta {
-    background-color: #888;
-    font-style: italic;
-}
 
 
 
-
-#photo {
-    text-align: left;
-
-    padding: 10px;
-}
-
-#photo img {
-    border: 1px black solid;
-}
-
+/* TODO */
 .todo {
     background-color: black;
     color:aqua;
@@ -112,9 +140,25 @@ p {
     padding:1px 2px;
 }
 
+
+
+
+/* Lists */
+
+ul {
+    list-style-type: square;
+}
+ul ul {
+    list-style-type: circle;
+}
+
+
 ul.nobullet {
     list-style-type: none;
 }
+
+
+
 
 
 
@@ -151,10 +195,7 @@ nav ul .current a, nav ul .current a:visited {
     cursor: default;
 }
 
-canvas {
-    display: block;
-    vertical-align: bottom;
-}
+
 
 /* not working */
 nav #nav-particles {
