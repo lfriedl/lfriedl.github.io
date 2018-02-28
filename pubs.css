@@ -60,4 +60,13 @@ blockquote .hide:hover {
     margin: 0 3px;
 }
 
+#pubs li.even {
+    background-color: #fff;
+}
+#pubs li.odd {
+    background-color: #eee;
+}
+
+
+
 
