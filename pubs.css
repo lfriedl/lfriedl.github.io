@@ -27,7 +27,7 @@ blockquote .hide {
     background-color: #999;
     cursor: pointer;
     text-align: center;
-    margin: 0 5px;
+    margin: 0 0px;
 }
 
 blockquote .hide:hover {
