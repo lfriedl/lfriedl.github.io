@@ -23,6 +23,9 @@
                 $(this).parent().find(".abstract blockquote").toggle();
 
             });
+			$("a.newwnd").click(function(ev) {
+				 ev.stopImmediatePropagation();
+			});
             $("a.show-info").click(function() {
                 $(this).parent().find(".info blockquote").toggle();
             });
