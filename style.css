@@ -198,11 +198,3 @@ nav ul .current a, nav ul .current a:visited {
 
 
 
-/* not working */
-nav #nav-particles {
-    width: 200px;
-    height: 100%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-color: #000;
-}
