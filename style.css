@@ -90,9 +90,10 @@ canvas {
 
 /* MAIN */
 
+/* stop underlining any links 
 a.newwnd, a.newwnd:visited, a.newwnd:hover {
     text-decoration: underline;
-}
+} */
 
 
 main {
